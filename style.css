@@ -1,0 +1,32 @@
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+    padding:20px;
+}
+.controls{
+    margin-bottom:10px;
+}
+input,select{
+    padding:6px;
+    margin-right:5px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:10px;
+}
+.card{
+    background:#fff;
+    padding:10px;
+    border-radius:6px;
+    box-shadow:0 2px 5px #ddd;
+}
+.pagination{
+    margin-top:10px;
+}
+button{
+    padding:5px 10px;
+}
+.error{
+    color:red;
+}
